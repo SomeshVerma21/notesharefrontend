@@ -1,11 +1,41 @@
 import React from "react"
-import BookSection from "./BookSection"
+import Header from "./Header"
+import 'bootstrap/dist/css/bootstrap.min.css';
+import {TOP_DOWNLOADS} from './constats'
+import BookSection from "./BookSection";
+import './global.css'
 
 class Home extends React.Component{
     render(){
         return(
             <div>
-                <BookSection/>
+                <Header/>
+                <div>
+                    <div className="mb-3 mt-3 p-3">
+                        <h1>Top Downloads </h1> 
+                        <div className="block">
+                            {TOP_DOWNLOADS.map((eachBook) => (
+                                <BookSection bookDetails={eachBook } /> 
+                            ))}
+                        </div>
+                    </div>
+                    <div className="mb-3 mt-3 p-3">
+                        <h1>Engineering and medical </h1> 
+                        <div className="block">
+                            {TOP_DOWNLOADS.map((eachBook) => (
+                                <BookSection bookDetails={eachBook } /> 
+                            ))}
+                        </div>
+                    </div>
+                    <div className="mb-3 mt-3 p-3">
+                        <h1>Other Govt Exams </h1> 
+                        <div className="block">
+                            {TOP_DOWNLOADS.map((eachBook) => (
+                                <BookSection bookDetails={eachBook } /> 
+                            ))}
+                        </div>
+                    </div>
+                </div>
             </div>
         )
     }
