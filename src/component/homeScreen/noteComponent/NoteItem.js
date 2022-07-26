@@ -1,13 +1,12 @@
 import React from "react";
-import './global.css'
 import {BsStarFill,BsCurrencyDollar} from 'react-icons/bs'
+import './note.css'
 
-const BookSection = ({bookDetails}) => {
+const NoteItem = ({bookDetails}) => {
     return(
         <section>
             <div className="book-container">
                 <div className='bookImage'>
-                    book
                 </div>
                 <h1>{bookDetails.name} </h1>
                 <div className="d-flex">
@@ -20,4 +19,4 @@ const BookSection = ({bookDetails}) => {
     )
 }
 
-export default BookSection
+export default NoteItem

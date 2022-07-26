@@ -1,0 +1,42 @@
+.profile{
+    background-color:black;
+    color: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left:1vw;
+}
+
+.bookImage {
+    width: 90%;
+    height: 70%;
+    color: red;
+    background-color:goldenrod;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.book-container{
+    width: 15vw;
+    height: 50vh;
+    font-size: 20px;
+    margin: 20px;
+
+}
+.book-container h1 {
+    font-size: 20px;
+}
+
+.cross-text{
+    text-decoration:line-through;
+}
+
+.rating .price .discount-price {
+    display: flex;
+    align-items: center;
+}

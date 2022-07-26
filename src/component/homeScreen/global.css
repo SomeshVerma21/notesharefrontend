@@ -1,50 +1,55 @@
-.profile{
-     background-color:black;
-     color: white;
-     height: 50px;
-     width: 50px;
-     border-radius: 50%;
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     margin-left:1vw;
+
+.d-flex-main-container{
+    background-color: wheat;
+    flex: 1;
 }
 
-.bookImage {
-     width: 90%;
-     height: 70%;
-     color: red;
-     background-color:goldenrod;
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     margin-bottom: 20px;
-}
-
-.book-container{
-     width: 15vw;
-     height: 50vh;
-     font-size: 20px;
-     margin: 20px;
+.app-name-start{
+    font-size: x-large;
+    font-style: normal;
+    color: black;
 
 }
-.book-container h1 {
-     font-size: 20px;
+
+.app-name-end{
+    font-size: x-large;
+    font-style: normal;
+    color: coral;
+    margin-left: 6px;
 }
 
 .block {
-     display:  flex;
-     flex-wrap: wrap;
-     margin-bottom: 10vh;
-     font-size: 20px;
-     margin: 20px 20px;
+    display:  flex;
+    flex-wrap: wrap;
+    align-self: flex-start;
+    margin-bottom: 10vh;
+    font-size: 20px;
+    margin: 20px 20px;
 }
 
-.cross-text{
-     text-decoration:line-through;
+.section-name{
+    display: flex;
+    align-self: flex-start;
 }
 
-.rating .price .discount-price {
-     display: flex;
-     align-items: center;
+.search-box{
+    width: 500px;
+    border-radius: 10px;
+    border-color: white;
+    shape-rendering: auto;
+    padding: 10px;
+
+}
+
+.navigatin-container{
+    padding-left: 20px;
+    align-items: center;
+    
+}
+
+.m-2{
+    align-self: center;
+    color: black;
+    align-items: center;
+    vertical-align: middle;
 }
